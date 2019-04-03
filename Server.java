@@ -10,7 +10,7 @@ public class server{
             System.out.println("Client Connected");
             
         InputStreamReader gt = new InputStreamReader (clientSocket.getInputStream ());
-        BufferedReader ot = new BufferedReader (gt);
+        BufferedReader ot = new BufferedReader(gt);
         
         PrintWriter rp = new PrintWriter (clientSocket.getOutputStream());
         rp.println("Hello There");
