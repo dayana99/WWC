@@ -4,7 +4,7 @@ import java.net.*;
 public class server{
     
     public static void main (String[] args) throws IOException{
-        ServerSocket serverSocket = new Server Socket(10000);
+        ServerSocket serverSocket = new ServerSocket(10000);
         Socket clientSocket = serverSocket.accept();
         
             System.out.println("Client Connected");
